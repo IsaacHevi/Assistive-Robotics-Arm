@@ -1,0 +1,169 @@
+# Assistive Robotic Arm 
+
+# PROJECT OVERVIEW
+
+## Project Title
+
+Assistive robotics arm for people with limited mobility
+
+## Group Members
+
+1. MOHAMMED, Ahmed
+2. HEVI, Isaac
+3. ASARE, Kingsley Donkor
+
+## Supervisor
+
+Dr. Griffith Selorm Klogo
+
+## Project Description
+
+---
+
+This project involves designing a table-top assistive robotic arm to help individuals with limited mobility pick and place small household objects. The arm will be controlled through voice commands or a simple joystick, using Arduino for motor control and a Raspberry Pi for speech recognition and processing. The goal is to improve user independence through an affordable and easy-to-use assistive device.
+
+---
+
+## Project Gantt Chart
+
+[Assistive_Robotic_Arm_Gantt_Chart_Group4.xlsx](attachment:f80f3132-7179-4131-ae36-b488edc8eb7b:Assistive_Robotic_Arm_Gantt_Chart_Group4.xlsx)
+
+## Project Cost Estimation
+
+1. Arduino Kit - GHS350
+2. Raspberry Pi - GHS300 - GHS700
+3. Servo Motors - GHS300
+4. Robotic Arm Kit - GHS600
+5. Joystick Module - GHS100
+6. Power Supply - GHS500
+
+**Total GHS2,150 - GHS2,500**
+
+## 3D Model
+
+[Robotic Arm 3D Model v4.stl](attachment:a9e9710a-77b6-4a17-9f60-54394bdc5762:Robotic_Arm_3D_Model_v4.stl)
+
+[Presentation Database](https://www.notion.so/30ad306fc78a800c9975ffbffd5c1607?pvs=21)
+
+## **Features**
+
+### Joystick-Based Manual Control
+
+Uses an analog 2-axis joystick connected to the Arduino Uno for real-time arm manipulation.
+
+- Controls base and shoulder movement using X and Y axes.
+- Button press can toggle gripper open/close.
+- Provides smooth, intuitive control for users with limited mobility.
+- Acts as a backup control method if voice recognition fails.
+
+### Voice Command Integration
+
+Uses **Vosk** on the Raspberry Pi for offline speech recognition.
+
+- Recognizes simple commands such as:
+    - “Pick”
+    - “Drop”
+    - “Open”
+    - “Close”
+    - “Stop”
+- Processes voice locally (no internet required).
+- Sends control signals to Arduino via serial communication.
+- Designed for basic assistive interaction (simple command structure).
+
+### Arduino-Based Servo Control
+
+Controlled using the Arduino Uno with PWM-based servo control.
+
+- Supports 4–6 servo motors.
+- Dedicated servo control ensures stable and accurate motion.
+- Real-time response from joystick and serial commands.
+- Handles:
+    - Base rotation
+    - Shoulder movement
+    - Elbow movement
+    - Wrist positioning
+    - Gripper open/close
+
+### Serial Communication (Pi - Arduino Integration)
+
+Enables communication between Raspberry Pi (voice processing) and Arduino (motor control).
+
+- Raspberry Pi processes voice input.
+- Recognized command is converted into a serial signal (e.g., 'P' for Pick).
+- Arduino receives the signal and executes the motion.
+- Ensures modular and reliable system architecture.
+
+### Smooth & Safe Servo Motion
+
+Implements gradual angle transitions to prevent sudden movements.
+
+- Incremental servo angle adjustments.
+- Prevents mechanical stress.
+- Improves stability during pick-and-place.
+- Reduces risk of user injury.
+
+### Emergency Stop Feature
+
+Implements both hardware and voice-based stop functionality.
+
+- Physical stop button connected to Arduino.
+- Optional voice command “Stop” halts motion.
+- Freezes servo movement immediately.
+- Prevents unexpected or dangerous movements.
+
+### Pick-and-Place Operation
+
+Predefined movement sequences enable reliable object handling.
+
+- Arm moves to object position.
+- Gripper closes to grip object.
+- Arm repositions to drop location.
+- Gripper opens to release.
+
+Designed specifically for:
+
+- Lightweight objects (<500g)
+- Table-top environment only
+
+### 3D-Printed Mechanical Structure
+
+Custom 3D-printed arm components for:
+
+- Lightweight structure
+- Cost reduction
+- Easy replacement of parts
+- Secure servo mounting
+
+# System Requirements
+
+### Hardware
+
+- Arduino Uno R3(servo control)
+- Raspberry Pi (speech processing)
+- 4–6 PWM-compatible servo motors
+- Analog joystick module
+- USB microphone
+- External 5–6V regulated power supply
+- 3D-printed robotic arm frame
+
+---
+
+### Software
+
+- Arduino IDE (servo programming)
+- Python 3.7+
+- **Vosk** (offline speech recognition)
+- Serial communication (pySerial)
+
+**Its a 6-DOF**
+
+A robotic arm’s DOF equals the number of independent joint movements it can control.
+
+For a typical 6-DOF arm:
+
+1. Base rotation (left/right)
+2. Shoulder (up/down)
+3. Elbow (bend)
+4. Wrist pitch (up/down)
+5. Wrist rotation (twist)
+6. Gripper (open/close)
