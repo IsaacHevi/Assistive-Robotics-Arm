@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="Page-1" id="saYYM0pW_Sujp2uivj7M">
+    <mxGraphModel dx="1123" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-14" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="amjBEs0Qpi6unoyZLVB5-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-15" connectable="0" parent="amjBEs0Qpi6unoyZLVB5-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Voice input" vertex="1">
+          <mxGeometry relative="1" x="-0.2715" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rotation=0;" value="USB&amp;nbsp; Microphone" vertex="1">
+          <mxGeometry height="60" relative="1" width="160" x="210" y="320" as="geometry">
+            <mxPoint x="80" y="110" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-3" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="Analog Joystick Module" vertex="1">
+          <mxGeometry height="60" relative="1" width="160" x="290" y="120" as="geometry">
+            <mxPoint x="560" y="110" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-24" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="amjBEs0Qpi6unoyZLVB5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-25" connectable="0" parent="amjBEs0Qpi6unoyZLVB5-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div&gt;Serial USB (UART)&lt;/div&gt;&lt;div&gt;P/D/O/C/S signals&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5111" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-4" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Raspberry Pi 4&lt;/div&gt;&lt;div&gt;Speech Processing&lt;/div&gt;&lt;div&gt;Vosk + pySerial + Python 3.7+&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" relative="1" width="260" x="370" y="190" as="geometry">
+            <mxPoint x="270" y="250" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-5" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Arduino Uno R3&lt;/div&gt;&lt;div&gt;Motor Control&lt;/div&gt;&lt;div&gt;PWM Servo Driver&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" relative="1" width="260" x="240" y="370" as="geometry">
+            <mxPoint x="270" y="420" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-29" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="amjBEs0Qpi6unoyZLVB5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-30" connectable="0" parent="amjBEs0Qpi6unoyZLVB5-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Digital Pin D2" vertex="1">
+          <mxGeometry relative="1" x="-0.5037" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-6" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Emergency Stop Button" vertex="1">
+          <mxGeometry height="60" relative="1" width="160" x="440" y="590" as="geometry">
+            <mxPoint x="680" y="430" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-33" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="amjBEs0Qpi6unoyZLVB5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-8" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;div&gt;5-6V Regulated&lt;/div&gt;&lt;div&gt;Power Supply&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="160" x="360" y="560" as="geometry">
+            <mxPoint x="80" y="430" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-9" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;6x Servo Motors (MG996R)&lt;/div&gt;&lt;div&gt;J1-Base | J2-Shoulder | J3-Elbow&lt;/div&gt;&lt;div&gt;J4-Wrist Pitch | J5-Wrist Roll | J6-Gripper&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" relative="1" width="460" x="180" y="590" as="geometry">
+            <mxPoint x="170" y="600" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;rotation=0;" value="&lt;b&gt;INPUT LAYER&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" relative="1" width="160" x="270" y="520" as="geometry">
+            <mxPoint x="320" y="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;rotation=0;fontStyle=1" value="PROCESSING LAYER" vertex="1">
+          <mxGeometry height="20" relative="1" width="160" x="420" y="130" as="geometry">
+            <mxPoint x="320" y="220" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;rotation=0;fontStyle=1" value="CONTROL LAYER" vertex="1">
+          <mxGeometry height="20" relative="1" width="160" x="360" y="530" as="geometry">
+            <mxPoint x="330" y="380" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;rotation=0;fontStyle=1" value="ACTUATOR LAYER" vertex="1">
+          <mxGeometry height="20" relative="1" width="160" x="310" y="540" as="geometry">
+            <mxPoint x="320" y="570" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-18" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.836;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="amjBEs0Qpi6unoyZLVB5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-20" connectable="0" parent="amjBEs0Qpi6unoyZLVB5-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Analog Signal (A0, A1)" vertex="1">
+          <mxGeometry relative="1" x="-0.5875" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-26" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.272;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="amjBEs0Qpi6unoyZLVB5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-27" connectable="0" parent="amjBEs0Qpi6unoyZLVB5-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="PWM Signal" vertex="1">
+          <mxGeometry relative="1" x="-0.6368" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;rotation=0;fontStyle=1" value="Assistive Robotic Arm - System Architecture" vertex="1">
+          <mxGeometry height="40" relative="1" width="400" x="140" y="730" as="geometry">
+            <mxPoint x="200" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
