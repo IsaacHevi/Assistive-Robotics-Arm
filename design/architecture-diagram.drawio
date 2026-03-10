@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15" version="29.6.1">
   <diagram name="Page-1" id="saYYM0pW_Sujp2uivj7M">
-    <mxGraphModel dx="765" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,17 @@
         <mxCell id="amjBEs0Qpi6unoyZLVB5-33" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="amjBEs0Qpi6unoyZLVB5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="amjBEs0Qpi6unoyZLVB5-8" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;div&gt;5-6V Regulated&lt;/div&gt;&lt;div&gt;Power Supply&lt;/div&gt;" vertex="1">
+        <mxCell id="a--_40nw4cVz2efS9Bgv-1" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="amjBEs0Qpi6unoyZLVB5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a--_40nw4cVz2efS9Bgv-3" edge="1" parent="1" source="amjBEs0Qpi6unoyZLVB5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="amjBEs0Qpi6unoyZLVB5-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-8" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;div&gt;7.4V (2S) LiPo Battery&lt;/div&gt;&lt;div&gt;8000–10000 mAh&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" relative="1" width="160" x="360" y="560" as="geometry">
             <mxPoint x="80" y="430" as="offset" />
           </mxGeometry>
