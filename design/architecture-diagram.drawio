@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15" version="29.6.1">
   <diagram name="Page-1" id="saYYM0pW_Sujp2uivj7M">
-    <mxGraphModel dx="1123" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="amjBEs0Qpi6unoyZLVB5-4" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Raspberry Pi 4&lt;/div&gt;&lt;div&gt;Speech Processing&lt;/div&gt;&lt;div&gt;Vosk + pySerial + Python 3.7+&lt;/div&gt;" vertex="1">
+        <mxCell id="amjBEs0Qpi6unoyZLVB5-4" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Raspberry Pi 5&lt;/div&gt;&lt;div&gt;Speech Processing&lt;/div&gt;&lt;div&gt;Vosk + pySerial + Python 3.7+&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" relative="1" width="260" x="370" y="190" as="geometry">
             <mxPoint x="270" y="250" as="offset" />
           </mxGeometry>
