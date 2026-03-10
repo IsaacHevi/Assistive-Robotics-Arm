@@ -1,9 +1,3 @@
-# Robotic Arm Design Specifications
-**Project:** Assistive Robotic Arm for People with Limited Mobility  
-**Group 4** | Mohammed Ahmed | Asare Kingsley Donkor | Hevi Isaac  
-**Supervisor:** Dr. Griffith Selorm Klogo  
-
----
 
 ## 1. Degrees of Freedom (DOF) Design
 
