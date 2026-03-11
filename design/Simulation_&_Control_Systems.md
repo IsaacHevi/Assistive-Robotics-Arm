@@ -27,6 +27,7 @@ This architecture ensures that user inputs are correctly translated into robotic
 Simulation Architecture Diagram
 
 ![Screenshot 2026-03-10 142949](https://github.com/user-attachments/assets/a485adfa-ff59-49cf-9257-9e32d8c1d6c7)
+
 Architecture Description
 
 The Webots simulation environment acts as the main platform where all components operate together.
@@ -58,3 +59,54 @@ Repeat
 The control system defines how the robotic arm behaves and responds to user commands in the simulation.
 The robotic arm will perform assistive pick-and-place tasks using joint movements controlled by the Python controller.
 The control system translates user commands into servo motor movements for each joint of the robotic arm.
+Robotic Arm Joint Structure
+
+The robotic arm consists of six degrees of freedom, which allow flexible movement and manipulation.
+| Joint | Function |
+|------|----------|
+| J1 Base | Rotates arm left and right |
+| J2 Shoulder | Raises and lowers the arm |
+| J3 Elbow | Extends the arm forward |
+| J4 Wrist Pitch | Adjusts vertical wrist orientation |
+| J5 Wrist Roll | Rotates the wrist |
+| J6 Gripper | Opens and closes to grasp objects |
+
+```mermaid
+flowchart TD
+
+A([Start])
+B[Initialize Simulation]
+C[Initialize Robot Motors]
+D[Wait for Command]
+E[Receive Command]
+F[Interpret Command]
+G[Generate Joint Movement]
+H[Move Robotic Arm]
+I[Update Robot Position]
+J[Check Next Command]
+K([End])
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+H --> I
+I --> J
+J --> K
+```
+
+ 
+Control System Explanation
+
+The control system operates continuously during the simulation.
+1.	The simulation starts by initializing the robotic arm and its motors.
+2.	The system waits for a command from the user.
+3.	When a command is received, the controller interprets the command.
+4.	The controller converts the command into joint motor movements.
+5.	The robotic arm moves accordingly.
+6.	The system updates the robot’s position in the simulation.
+
+This loop continues until the simulation ends.
