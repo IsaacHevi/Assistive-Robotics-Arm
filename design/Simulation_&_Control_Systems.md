@@ -71,32 +71,7 @@ The robotic arm consists of six degrees of freedom, which allow flexible movemen
 | J5 Wrist Roll | Rotates the wrist |
 | J6 Gripper | Opens and closes to grasp objects |
 
-```mermaid
-flowchart TD
-
-A([Start])
-B[Initialize Simulation]
-C[Initialize Robot Motors]
-D[Wait for Command]
-E[Receive Command]
-F[Interpret Command]
-G[Generate Joint Movement]
-H[Move Robotic Arm]
-I[Update Robot Position]
-J[Check Next Command]
-K([End])
-
-A --> B
-B --> C
-C --> D
-D --> E
-E --> F
-F --> G
-G --> H
-H --> I
-I --> J
-J --> K
-```
+<img width="1024" height="1536" alt="IMG_7272" src="https://github.com/user-attachments/assets/116973aa-b44a-47dd-bee1-60d938bba851" />
 
  
 Control System Explanation
