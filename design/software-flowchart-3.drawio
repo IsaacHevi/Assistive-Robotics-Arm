@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15" version="29.6.6">
+  <diagram name="Page-1" id="Ql3n5wHAE-1WrVMOVnQz">
+    <mxGraphModel dx="1454" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-3" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;START&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="120" x="350" y="200" as="geometry">
+            <mxPoint x="320" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4FrFLSEyHbe2HVQwbzc-2" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-2" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;System Initialisation&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Arduino + Raspberry Pi Boot Up&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="220" x="210" y="190" as="geometry">
+            <mxPoint x="270" y="140" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-7" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j7dx-PY_jdzwQOBH6zU7-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-4" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Wait for Input&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="220" x="260" y="280" as="geometry">
+            <mxPoint x="275" y="230" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-13" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-16" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j7dx-PY_jdzwQOBH6zU7-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Input Type?&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" relative="1" width="220" x="345" y="320" as="geometry">
+            <mxPoint x="275" y="330" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-15" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-8" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Voice Command&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Vosk Processes Audio&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="180" x="320" y="490" as="geometry">
+            <mxPoint x="60" y="340" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-23" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-11" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;Joystick Input&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Arduino Reads Analog&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="180" x="510" y="520" as="geometry">
+            <mxPoint x="530" y="330" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-17" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="500" />
+              <mxPoint x="40" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-18" connectable="0" parent="j7dx-PY_jdzwQOBH6zU7-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="No - Try Again" vertex="1">
+          <mxGeometry relative="1" x="0.3754" y="-2" as="geometry">
+            <mxPoint x="-74" y="168" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-20" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-21" connectable="0" parent="j7dx-PY_jdzwQOBH6zU7-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.4133" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Command&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Recognised?&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" relative="1" width="180" x="340" y="460" as="geometry">
+            <mxPoint x="60" y="460" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-28" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="D4FrFLSEyHbe2HVQwbzc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-19" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Send Serial Signal&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;RPi → Arduino&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="180" x="260" y="440" as="geometry">
+            <mxPoint x="60" y="590" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-25" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-26" connectable="0" parent="j7dx-PY_jdzwQOBH6zU7-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.2533" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-30" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D4FrFLSEyHbe2HVQwbzc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="480" />
+              <mxPoint x="390" y="590" />
+            </Array>
+            <mxPoint x="415" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-31" connectable="0" parent="j7dx-PY_jdzwQOBH6zU7-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3736" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Emergency&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Stop?&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" relative="1" width="180" x="310" y="400" as="geometry">
+            <mxPoint x="530" y="440" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-24" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stop All Motors&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Freeze Servos&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="180" x="370" y="520" as="geometry">
+            <mxPoint x="530" y="580" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-33" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-27" parent="1" style="whiteSpace=wrap;html=1;rotation=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Execute Movement&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PCA9685 Drives Servos&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" relative="1" width="170" x="330" y="560" as="geometry">
+            <mxPoint x="310" y="700" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-37" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-39" connectable="0" parent="j7dx-PY_jdzwQOBH6zU7-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.6088" y="-1" as="geometry">
+            <mxPoint x="1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4FrFLSEyHbe2HVQwbzc-7" edge="1" parent="1" source="j7dx-PY_jdzwQOBH6zU7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="j7dx-PY_jdzwQOBH6zU7-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="860" />
+              <mxPoint x="790" y="245" />
+            </Array>
+            <mxPoint x="780" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4FrFLSEyHbe2HVQwbzc-8" connectable="0" parent="D4FrFLSEyHbe2HVQwbzc-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.9035" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-32" parent="1" style="rhombus;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Task&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Complete?&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" relative="1" width="220" x="380" y="690" as="geometry">
+            <mxPoint x="275" y="820" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-36" parent="1" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;END&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" relative="1" width="120" x="330" y="870" as="geometry">
+            <mxPoint x="325" y="960" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j7dx-PY_jdzwQOBH6zU7-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="Assistive Robotic Arm - Software Flowchart" vertex="1">
+          <mxGeometry height="30" width="350" x="210" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="D4FrFLSEyHbe2HVQwbzc-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Arduino Commands PWM Driver&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="325" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="D4FrFLSEyHbe2HVQwbzc-4" edge="1" parent="1" source="D4FrFLSEyHbe2HVQwbzc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.44;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="j7dx-PY_jdzwQOBH6zU7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
